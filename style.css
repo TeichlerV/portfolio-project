@@ -1,3 +1,16 @@
+body {
+  color: white;
+}
+.welcome {
+  text-align: center;
+  padding: 200px;
+  background-image: url(images/imgtop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin-bottom: 30px;
+}
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -15,15 +28,23 @@ p {
 .more {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 18px;
   font-weight: bold;
-  border: solid 1px black;
+  border: solid 1px white;
   padding: 18px 30px;
   border-radius: 50px;
 }
-.more a {
+
+.col-md-4 {
+  display: flex;
+  justify-content: center;
 }
-.welcome {
-  text-align: center;
+@media (max-width: 700px) {
+  h1 {
+    font-size: 50px;
+  }
+  .welcome {
+    text-align: center;
+  }
 }
