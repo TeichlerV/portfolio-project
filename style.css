@@ -1,10 +1,29 @@
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
+  font-size: 72px;
+  letter-spacing: 6px;
+}
+h3 {
+  font-size: 24px;
+  font-weight: bold;
 }
 p {
   font-family: "Roboto", sans-serif;
+  font-size: 18px;
 }
-.button-text {
+.more {
   font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  border: solid 1px black;
+  padding: 18px 30px;
+  border-radius: 50px;
+}
+.more a {
+}
+.welcome {
+  text-align: center;
 }
