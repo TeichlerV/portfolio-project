@@ -1,10 +1,20 @@
+.root {
+  --box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
 body {
   color: white;
-  background-color: #191f13;
+  background-color: #1b1b1b;
+}
+.navbar {
+  background-color: #1b1b1b;
+  color: white;
+}
+.navbar a {
+  color: white;
 }
 .welcome {
   text-align: center;
-  padding: 200px;
+  padding: 170px;
   background-image: url(images/imgtop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -29,12 +39,14 @@ p {
 .more {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
-  color: white;
+  color: #1b1b1b;
+  background-color: white;
   font-size: 18px;
   font-weight: bold;
   border: solid 1px white;
   padding: 18px 30px;
   border-radius: 50px;
+  box-shadow: var(--box-shadow);
 }
 
 .col-md-4 {
@@ -44,12 +56,16 @@ p {
 .pictures {
   margin: 0px 60px;
 }
+footer {
+  background-color: #282323;
+}
 @media (max-width: 700px) {
   h1 {
     font-size: 50px;
   }
   .welcome {
     text-align: center;
+    padding: 70px 0px;
   }
   .col-md-4 {
     text-align: center;
