@@ -1,5 +1,7 @@
 .root {
   --box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  --primary-font-family: "Roboto", sans-serif;
+  --button-font-family: "Montserrat", sans-serif;
 }
 body {
   color: white;
@@ -28,9 +30,20 @@ h1 {
   font-size: 72px;
   letter-spacing: 6px;
 }
+.h1-about {
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  font-size: 64px;
+}
 h3 {
   font-size: 24px;
   font-weight: bold;
+}
+h5 {
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  font-size: 18px;
+  color: #40a9b3;
 }
 p {
   font-family: "Roboto", sans-serif;
@@ -59,6 +72,26 @@ p {
 footer {
   background-color: #282323;
 }
+i {
+  margin: 13px;
+}
+.about-pic {
+  width: 450px;
+}
+.contact-button {
+  border: solid 1px black;
+  background-color: white;
+  padding: 18px 30px;
+  border-radius: 50px;
+  font-family: var(--button-font-family);
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  box-shadow: var(--box-shadow);
+}
+
 @media (max-width: 700px) {
   h1 {
     font-size: 50px;
