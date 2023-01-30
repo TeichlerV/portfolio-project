@@ -99,13 +99,22 @@ i {
 }
 @media (max-width: 700px) {
   h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
   .welcome {
     text-align: center;
     padding: 70px 0px;
   }
   .col-md-4 {
+    text-align: center;
+  }
+  .about-pic {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+  }
+  .contact-button {
+    display: block;
     text-align: center;
   }
 }
