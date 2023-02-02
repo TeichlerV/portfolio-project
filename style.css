@@ -14,6 +14,10 @@ body {
 .navbar a {
   color: white;
 }
+.navbar-brand,
+.navbar-nav {
+  margin: 0px 30px;
+}
 .welcome {
   text-align: center;
   padding: 170px;
@@ -72,6 +76,7 @@ p {
 footer {
   background-color: #282323;
 }
+
 i {
   margin: 13px;
 }
@@ -94,8 +99,12 @@ i {
 .contact a {
   color: white;
 }
+.icon {
+  margin-left: 10px;
+}
 .icon a {
   color: white;
+  font-size: 15px;
 }
 @media (max-width: 700px) {
   h1 {
