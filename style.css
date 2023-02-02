@@ -76,6 +76,12 @@ p {
 .pictures {
   margin: 0px 60px;
 }
+.pictures a:hover {
+  transform: scale(2);
+}
+.container-gallery a:hover {
+  transform: scale(1.5);
+}
 footer {
   background-color: #282323;
 }
