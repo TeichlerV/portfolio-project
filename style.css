@@ -68,7 +68,11 @@ p {
   border-radius: 50px;
   box-shadow: var(--box-shadow);
 }
-
+.more:hover {
+  transition: all 200ms linear/ease-in-out;
+  border: solid 3px black;
+  color: #1b1b1b;
+}
 .col-md-4 {
   display: flex;
   justify-content: center;
@@ -105,15 +109,28 @@ i {
   letter-spacing: 1px;
   box-shadow: var(--box-shadow);
 }
+.contact-button:hover {
+  transition: all 200ms linear/ease-in-out;
+  border: solid 1px #40a9b3;
+  color: #40a9b3;
+}
 .contact a {
   color: white;
 }
+.contact a:hover {
+  color: rgb(220, 220, 220);
+}
+
 .icon {
   margin-left: 10px;
 }
 .icon a {
   color: white;
   font-size: 15px;
+}
+.icon a:hover {
+  transition: all 200ms linear/ease-in-out;
+  color: #40a9b3;
 }
 .coded-by {
   font-size: 10px;
@@ -123,6 +140,10 @@ i {
 .fa-github {
   font-size: 15px;
   color: white;
+}
+.fa-github:hover {
+  transition: all 200ms linear/ease-in-out;
+  color: #40a9b3;
 }
 @media (max-width: 700px) {
   h1 {
