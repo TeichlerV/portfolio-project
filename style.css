@@ -82,6 +82,7 @@ p {
 }
 .pictures a:hover {
   transform: scale(2);
+  pointer-events: none;
 }
 .container-gallery a:hover {
   transform: scale(1.5);
