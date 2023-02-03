@@ -167,10 +167,4 @@ i {
     display: block;
     text-align: center;
   }
-  .pictures a:hover {
-    transform: none;
-  }
-  .container-gallery a:hover {
-    transform: none;
-  }
 }
