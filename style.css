@@ -85,6 +85,7 @@ p {
 }
 .container-gallery a:hover {
   transform: scale(1.5);
+  pointer-events: none;
 }
 footer {
   background-color: #282323;
@@ -164,5 +165,11 @@ i {
   .contact-button {
     display: block;
     text-align: center;
+  }
+  .pictures a:hover {
+    transform: none;
+  }
+  .container-gallery a:hover {
+    transform: none;
   }
 }
